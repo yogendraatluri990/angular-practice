@@ -1,0 +1,1 @@
+export * from './custom-decorator/custom-decorator.page';

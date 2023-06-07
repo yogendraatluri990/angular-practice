@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx/navbar": ["libs/navbar/src/index.ts"],
+      "@nx/decorators": ["libs/decorators/feature-shell-web/src/index.ts"],
+      "@nx/layouts": ["libs/layouts/ui-core-layout/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { NxWelcomeComponent } from './nx-welcome.component';
-
+import { LayoutUiCorePage } from '@nx/layouts';
+import {NavbarComponent} from '@nx/navbar';
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent],
+  imports: [LayoutUiCorePage, NavbarComponent],
   selector: 'angular-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
