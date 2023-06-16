@@ -15,9 +15,11 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nx/navbar": ["libs/navbar/src/index.ts"],
+      "@nx/agencies": ["libs/agencies/ads/src/index.ts"],
       "@nx/decorators": ["libs/decorators/feature-shell-web/src/index.ts"],
-      "@nx/layouts": ["libs/layouts/ui-core-layout/src/index.ts"]
+      "@nx/layouts": ["libs/layouts/ui-core-layout/src/index.ts"],
+      "@nx/navbar": ["libs/navbar/src/index.ts"],
+      "@nx/prevalent": ["libs/prevalent/feature-content/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

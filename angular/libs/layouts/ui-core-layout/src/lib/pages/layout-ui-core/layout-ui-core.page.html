@@ -1,9 +1,11 @@
-<div id="main">
-    <ng-content select="nx-navbar"></ng-content>
+<div id="main" class="header-container">
+  <ng-content select="nx-navbar"></ng-content>
+</div>
 
-    <div id="container-1" class="content-wrapper container">
-        <div class="container-inner">
-            <router-outlet></router-outlet>
-        </div>
-    </div>
+<div id="container-1" class="content-wrapper">
+  <router-outlet></router-outlet>
+</div>
+
+<div id="container-2" class="content-wrapper">
+  <ng-content select="nx-footer-directive"></ng-content>
 </div>

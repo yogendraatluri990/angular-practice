@@ -1,4 +1,17 @@
+.header-container {
+    position: absolute;
+    top:0;
+    left: 0;
+    right:0;
+}
+
 .content-wrapper {
+    position: relative;
+    top: 60px;
     width: 100%;
     height: auto;
+    display:grid;
+    grid-template-columns: 12fr;    
 }
+
+

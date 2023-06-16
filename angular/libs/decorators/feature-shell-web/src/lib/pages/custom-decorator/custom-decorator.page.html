@@ -1,1 +1,16 @@
-<p>custom-decorator works!</p>
+<div>
+  <h1>custom-decorator works!</h1>
+</div>
+
+<div>
+  <button
+    type="button"
+    mat-flat-button
+    color="primary"
+    (click)="createDynamicContainer()"
+  >
+    Generate Dynamic Component
+  </button>
+</div>
+
+<ng-container #dynamicContainer></ng-container>
